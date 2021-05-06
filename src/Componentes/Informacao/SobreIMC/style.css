@@ -1,0 +1,16 @@
+#sobre {
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+#sobre p {
+    padding-top: 20px;
+}
+
+#sobre h2 {
+    text-decoration: underline;
+}
+

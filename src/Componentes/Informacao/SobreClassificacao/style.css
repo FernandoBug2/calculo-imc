@@ -1,0 +1,51 @@
+#classes {
+    display: flex;
+    flex-direction: initial;
+    height: 200px;
+    background-color: rgb(34, 34, 34);
+    
+}
+
+#classes div {
+    padding: 15px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#classes p {
+    padding-top: 30px;
+}
+
+#div-classes h2 {
+    padding: 50px;
+    text-decoration: underline;
+}
+
+#div-classes {
+    height: 200px;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    bottom:  -85px;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 980px) {
+    #classes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #classes div {
+        padding: 15px;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
+
+    #div-classes {
+        height: 1000px;
+    }
+}
